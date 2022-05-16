@@ -10,12 +10,11 @@
 
         bundle install
 
-3. Add a 'code' (string) column to cms_pages, set terms and conditions page code to 'terms-and-conditions'.
+3. You can use the generator to install migrations and append spree_terms assets to
+your app spree manifest file.
 
-4. Add javscript file
+    rails g spree_terms:install
 
-        //= require spree/frontend/spree_terms
-
-5. Restart your server
+4. Restart your server
 
         If your server was running, restart it so that it can find the assets properly.
