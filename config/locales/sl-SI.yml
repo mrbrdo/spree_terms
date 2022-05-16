@@ -1,0 +1,5 @@
+sl-SI:
+  spree:
+    payment_terms_label: Strinjam se s
+    payment_terms_link_text: Splošnimi pogoji
+    must_accept_terms: Za nadaljevanje se morate strinjati s Splošnimi pogoji.

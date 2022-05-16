@@ -1,8 +1,8 @@
-module GemName
+module SpreeTerms
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'gem_name'
+    engine_name 'spree_terms'
 
     config.autoload_paths += %W(#{config.root}/lib)
 

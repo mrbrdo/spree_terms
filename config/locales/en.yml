@@ -1,0 +1,5 @@
+en:
+  spree:
+    payment_terms_label: I agree to the
+    payment_terms_link_text: Terms and Conditions
+    must_accept_terms: To continue, you must accept the Terms and Conditions.
